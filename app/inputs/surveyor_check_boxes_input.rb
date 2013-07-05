@@ -1,4 +1,4 @@
-class SurveyorCheckBoxesInput < Formtastic::Inputs::CheckBoxesInput
+class SurveyorCheckBoxesInput < FormtasticBootstrap::Inputs::CheckBoxesInput
   include Surveyor::Helpers::FormtasticCustomInput
   def to_html
     super

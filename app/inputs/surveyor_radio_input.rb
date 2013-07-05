@@ -1,4 +1,4 @@
-class SurveyorRadioInput < Formtastic::Inputs::RadioInput
+class SurveyorRadioInput < FormtasticBootstrap::Inputs::RadioInput
   include Surveyor::Helpers::FormtasticCustomInput
   def to_html
     super
